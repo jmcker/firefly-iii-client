@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**amount** | **float** |  | 
+**amount** | **str** |  | 
 **budget_id** | **int** | The budget ID of the associated budget. | 
 **created_at** | **datetime** |  | [optional] 
 **currency_code** | **str** | Use either currency_id or currency_code. Defaults to the user&#39;s default currency. | [optional] 

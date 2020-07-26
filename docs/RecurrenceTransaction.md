@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**amount** | **float** | Amount of the transaction. | 
+**amount** | **str** | Amount of the transaction. | 
 **budget_id** | **int** | The budget ID for this transaction. | [optional] 
 **budget_name** | **str** | The name of the budget to be used. If the budget name is unknown, the ID will be used or the value will be ignored. | [optional] 
 **category_id** | **int** | Category ID for this transaction. | [optional] 
@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 **destination_id** | **int** | ID of the destination account. Submit either this or destination_name. | [optional] 
 **destination_name** | **str** | Name of the destination account. Submit either this or destination_id. | [optional] 
 **destination_type** | [**AccountTypeProperty**](AccountTypeProperty.md) |  | [optional] 
-**foreign_amount** | **float** | Foreign amount of the transaction. | [optional] 
+**foreign_amount** | **str** | Foreign amount of the transaction. | [optional] 
 **foreign_currency_code** | **str** | Submit either a foreign_currency_id or a foreign_currency_code, or neither. | [optional] 
 **foreign_currency_decimal_places** | **int** | Number of decimals in the currency | [optional] 
 **foreign_currency_id** | **int** | Submit either a foreign_currency_id or a foreign_currency_code, or neither. | [optional] 

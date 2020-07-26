@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**amount** | **float** |  | 
+**amount** | **str** |  | 
 **created_at** | **datetime** |  | [optional] 
 **currency_code** | **str** | Use either currency_id or currency_code. | [optional] 
 **currency_decimal_places** | **int** |  | [optional] 

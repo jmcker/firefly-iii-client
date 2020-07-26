@@ -11,15 +11,18 @@ Name | Type | Description | Notes
 **currency_decimal_places** | **int** | Number of decimals supported by the currency | [optional] 
 **currency_id** | **int** |  | [optional] 
 **currency_symbol** | **str** |  | [optional] 
-**current_amount** | **float** |  | [optional] 
+**current_amount** | **str** |  | [optional] 
 **left_to_save** | **float** |  | [optional] 
 **name** | **str** |  | 
 **notes** | **str** |  | [optional] 
+**object_group_id** | **int** | The group ID of the group this object is part of. NULL if no group. | [optional] 
+**object_group_order** | **int** | The order of the group. At least 1, for the highest sorting. | [optional] 
+**object_group_title** | **str** | The name of the group. NULL if no group. | [optional] 
 **order** | **int** |  | [optional] 
 **percentage** | **float** |  | [optional] 
 **save_per_month** | **float** |  | [optional] 
 **start_date** | **date** | The date you started with this piggy bank. | [optional] 
-**target_amount** | **float** |  | 
+**target_amount** | **str** |  | 
 **target_date** | **date** | The date you intend to finish saving money. | [optional] 
 **updated_at** | **datetime** |  | [optional] 
 
