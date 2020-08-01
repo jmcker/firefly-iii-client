@@ -56,7 +56,6 @@ class Account(object):
         'notes': 'str',
         'opening_balance': 'float',
         'opening_balance_date': 'date',
-        'order': 'int',
         'type': 'str',
         'updated_at': 'datetime',
         'virtual_balance': 'str'
@@ -87,13 +86,12 @@ class Account(object):
         'notes': 'notes',
         'opening_balance': 'opening_balance',
         'opening_balance_date': 'opening_balance_date',
-        'order': 'order',
         'type': 'type',
         'updated_at': 'updated_at',
         'virtual_balance': 'virtual_balance'
     }
 
-    def __init__(self, account_number=None, account_role=None, active=None, bic=None, created_at=None, credit_card_type=None, currency_code=None, currency_decimal_places=None, currency_id=None, currency_symbol=None, current_balance=None, current_balance_date=None, iban=None, include_net_worth=None, interest=None, interest_period=None, liability_amount=None, liability_start_date=None, liability_type=None, monthly_payment_date=None, name=None, notes=None, opening_balance=None, opening_balance_date=None, order=None, type=None, updated_at=None, virtual_balance=None):  # noqa: E501
+    def __init__(self, account_number=None, account_role=None, active=None, bic=None, created_at=None, credit_card_type=None, currency_code=None, currency_decimal_places=None, currency_id=None, currency_symbol=None, current_balance=None, current_balance_date=None, iban=None, include_net_worth=None, interest=None, interest_period=None, liability_amount=None, liability_start_date=None, liability_type=None, monthly_payment_date=None, name=None, notes=None, opening_balance=None, opening_balance_date=None, type=None, updated_at=None, virtual_balance=None):  # noqa: E501
         """Account - a model defined in OpenAPI"""  # noqa: E501
 
         self._account_number = None
@@ -120,7 +118,6 @@ class Account(object):
         self._notes = None
         self._opening_balance = None
         self._opening_balance_date = None
-        self._order = None
         self._type = None
         self._updated_at = None
         self._virtual_balance = None
@@ -171,8 +168,6 @@ class Account(object):
             self.opening_balance = opening_balance
         if opening_balance_date is not None:
             self.opening_balance_date = opening_balance_date
-        if order is not None:
-            self.order = order
         self.type = type
         if updated_at is not None:
             self.updated_at = updated_at
@@ -732,29 +727,6 @@ class Account(object):
         """
 
         self._opening_balance_date = opening_balance_date
-
-    @property
-    def order(self):
-        """Gets the order of this Account.  # noqa: E501
-
-        Order of the account  # noqa: E501
-
-        :return: The order of this Account.  # noqa: E501
-        :rtype: int
-        """
-        return self._order
-
-    @order.setter
-    def order(self, order):
-        """Sets the order of this Account.
-
-        Order of the account  # noqa: E501
-
-        :param order: The order of this Account.  # noqa: E501
-        :type: int
-        """
-
-        self._order = order
 
     @property
     def type(self):

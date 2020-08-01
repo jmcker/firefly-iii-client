@@ -33,7 +33,7 @@ class RuleRead(object):
     """
     openapi_types = {
         'attributes': 'Rule',
-        'id': 'int',
+        'id': 'str',
         'links': 'ObjectLink',
         'type': 'str'
     }
@@ -88,7 +88,7 @@ class RuleRead(object):
 
 
         :return: The id of this RuleRead.  # noqa: E501
-        :rtype: int
+        :rtype: str
         """
         return self._id
 
@@ -98,7 +98,7 @@ class RuleRead(object):
 
 
         :param id: The id of this RuleRead.  # noqa: E501
-        :type: int
+        :type: str
         """
         if id is None:
             raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501

@@ -27,7 +27,6 @@ Name | Type | Description | Notes
 **notes** | **str** |  | [optional] 
 **opening_balance** | **float** |  | [optional] 
 **opening_balance_date** | **date** |  | [optional] 
-**order** | **int** | Order of the account | [optional] 
 **type** | **str** | Can only be one one these account types. import, initial-balance and reconciliation cannot be set manually. | 
 **updated_at** | **datetime** |  | [optional] 
 **virtual_balance** | **str** |  | [optional] 

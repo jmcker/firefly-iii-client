@@ -33,7 +33,7 @@ class TransactionLinkRead(object):
     """
     openapi_types = {
         'attributes': 'TransactionLink',
-        'id': 'int',
+        'id': 'str',
         'links': 'ObjectLink',
         'type': 'str'
     }
@@ -88,7 +88,7 @@ class TransactionLinkRead(object):
 
 
         :return: The id of this TransactionLinkRead.  # noqa: E501
-        :rtype: int
+        :rtype: str
         """
         return self._id
 
@@ -98,7 +98,7 @@ class TransactionLinkRead(object):
 
 
         :param id: The id of this TransactionLinkRead.  # noqa: E501
-        :type: int
+        :type: str
         """
         if id is None:
             raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501

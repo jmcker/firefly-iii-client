@@ -6,7 +6,6 @@ from __future__ import absolute_import
 from firefly_iii_client.api.about_api import AboutApi
 from firefly_iii_client.api.accounts_api import AccountsApi
 from firefly_iii_client.api.attachments_api import AttachmentsApi
-from firefly_iii_client.api.autocomplete_api import AutocompleteApi
 from firefly_iii_client.api.available_budgets_api import AvailableBudgetsApi
 from firefly_iii_client.api.bills_api import BillsApi
 from firefly_iii_client.api.budgets_api import BudgetsApi

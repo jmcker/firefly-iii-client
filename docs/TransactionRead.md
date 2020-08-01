@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **attributes** | [**Transaction**](Transaction.md) |  | 
-**id** | **int** |  | 
+**id** | **str** |  | 
 **links** | [**ObjectLink**](ObjectLink.md) |  | 
 **type** | **str** | Immutable value | 
 

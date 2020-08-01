@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **attributes** | [**Rule**](Rule.md) |  | 
-**id** | **int** |  | 
+**id** | **str** |  | 
 **links** | [**ObjectLink**](ObjectLink.md) |  | 
 **type** | **str** | Immutable value | 
 

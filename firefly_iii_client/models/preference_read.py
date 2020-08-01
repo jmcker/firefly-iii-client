@@ -33,7 +33,7 @@ class PreferenceRead(object):
     """
     openapi_types = {
         'attributes': 'Preference',
-        'id': 'int',
+        'id': 'str',
         'type': 'str'
     }
 
@@ -84,7 +84,7 @@ class PreferenceRead(object):
 
 
         :return: The id of this PreferenceRead.  # noqa: E501
-        :rtype: int
+        :rtype: str
         """
         return self._id
 
@@ -94,7 +94,7 @@ class PreferenceRead(object):
 
 
         :param id: The id of this PreferenceRead.  # noqa: E501
-        :type: int
+        :type: str
         """
         if id is None:
             raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501

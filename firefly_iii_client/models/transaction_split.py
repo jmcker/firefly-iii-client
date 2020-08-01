@@ -1520,7 +1520,7 @@ class TransactionSplit(object):
         :param type: The type of this TransactionSplit.  # noqa: E501
         :type: str
         """
-        allowed_values = ["withdrawal", "deposit", "transfer", "reconciliation", "opening balance"]  # noqa: E501
+        allowed_values = ["withdrawal", "deposit", "transfer", "reconciliation"]  # noqa: E501
         if type not in allowed_values:
             raise ValueError(
                 "Invalid value for `type` ({0}), must be one of {1}"  # noqa: E501

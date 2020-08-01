@@ -33,7 +33,7 @@ class AvailableBudgetRead(object):
     """
     openapi_types = {
         'attributes': 'AvailableBudget',
-        'id': 'int',
+        'id': 'str',
         'type': 'str'
     }
 
@@ -84,7 +84,7 @@ class AvailableBudgetRead(object):
 
 
         :return: The id of this AvailableBudgetRead.  # noqa: E501
-        :rtype: int
+        :rtype: str
         """
         return self._id
 
@@ -94,7 +94,7 @@ class AvailableBudgetRead(object):
 
 
         :param id: The id of this AvailableBudgetRead.  # noqa: E501
-        :type: int
+        :type: str
         """
         if id is None:
             raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
